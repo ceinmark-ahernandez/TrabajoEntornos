@@ -1,4 +1,4 @@
-package com.ceinmark.interfaces;
+package com.ceinmark.bases;
 
 /**
  * Clase abstacta Persona.
