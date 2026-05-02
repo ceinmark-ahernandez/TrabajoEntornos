@@ -19,14 +19,14 @@ public abstract class Persona {
 	 * @param apellidos
 	 * @param sexo
 	 * @param dni
-	 * @param edad
+	 * @param localDate
 	 */
-	public Persona(String nombre, String apellidos, Character sexo, String dni, LocalDate fechaNacimiento) {			
+	public Persona(String nombre, String apellidos, Character sexo, String dni, LocalDate localDate) {			
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 		this.sexo = sexo;
 		this.dni = dni;
-		this.fechaNacimiento = fechaNacimiento;
+		this.fechaNacimiento = localDate;
 	}
 
 	/**
